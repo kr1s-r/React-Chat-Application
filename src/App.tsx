@@ -14,6 +14,7 @@ NOTES
 
 - Fix README.md on github
 - Recreate firebase hosting since github is not connected with app
+- set up automatic deployment to sites live channel when PR is merged (maybe)
 
 - create notifications if a new message appears
 */
