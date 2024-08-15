@@ -38,7 +38,7 @@ function ChatRoom() {
   return (
     <>
       {/* 100vh - 50px (size of navbar) - 1px (border bottom) */}
-      <div className="flex flex-col flex-[0.80] h-[calc(100vh-51px)] w-full ">
+      <div className="flex flex-col flex-[0.80] h-[calc(100vh-60px)] w-full">
         {/* height is 100vh - 50px - 61px */}
         {/* The navbar is 50px and the form below is 61px */}
         <main className="flex flex-col overflow-y-scroll h-[calc(100vh-111px)] pt-2 pr-1">

@@ -50,10 +50,12 @@ function ChatProvider({ children }: IChat) {
   const [rooms, setRooms] = useState<Room[]>([]);
   const [currentRoom, setCurrentRoom] = useState<Room>({ id: "", name: "" });
   // fetch all the messages for the current room from db
-  const messages = useMessages(currentRoom.id ?? "");
+  const messages = useMessages(currentRoom.id ?? "Gqe0jm04pWkkMurJ25Y8");
 
   // send message to db
   const sendMessage = async (currentUser: User, text: string, time: string) => {
+    if (!currentRoom.id) return;
+
     try {
       const messagesRef = collection(
         doc(db, "rooms", currentRoom.id ?? ""),

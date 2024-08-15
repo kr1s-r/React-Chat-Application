@@ -16,7 +16,7 @@ function Sidebar() {
   return (
     <>
       {/* 100vh - 50px (size of navbar) - 1px (border bottom) */}
-      <div className="flex flex-col min-w-[150px] flex-[0.20] border-r-2 border-[rgba(255,255,255,0.2)] h-[calc(100vh-51px)]">
+      <div className="flex flex-col min-w-[150px] flex-[0.20] border-r-2 border-[rgba(255,255,255,0.2)] h-[calc(100vh-60px)]">
         <div className="flex justify-center items-center py-2 text-lg">
           Rooms
           {/* <IoMdCreate onClick={handleAddRoom} /> */}

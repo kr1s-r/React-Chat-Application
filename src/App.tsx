@@ -3,12 +3,18 @@ import ErrorPage from "./components/ErrorPage";
 import PrivateRoute from "./components/PrivateRoute";
 import Navbar from "./components/Navbar";
 import Login from "./components/Login";
-import ChatRoom from "./components/Chat/ChatRoom";
-import Sidebar from "./components/Chat/Sidebar";
+import ChatRoom from "./components/chat/ChatRoom";
+import Sidebar from "./components/chat/Sidebar";
 
 /*
 NOTES
+- use memoization in firebase (check PedroTech comments) (possibly connected to scrollbar)
+- other ways to reduce billing on firebase??
 - scrollbar is not smooth, kinda glitches (ChatRoom.tsx)
+
+- Fix README.md on github
+- Recreate firebase hosting since github is not connected with app
+
 - create notifications if a new message appears
 */
 
@@ -30,8 +36,8 @@ function App() {
           index: true,
           element: (
             <PrivateRoute>
-              {/* 100vh - 50px (size of navbar) - 1px (border bottom) */}
-              <div className="grid place-items-center min-h-[calc(100vh-51px)]">
+              {/* 100vh - 50px (size of navbar) - 1px (border bottom) - 44px (size of button) */}
+              <div className="grid place-items-center min-h-[calc(100vh-95px)]">
                 <Login />
               </div>
             </PrivateRoute>
@@ -42,7 +48,7 @@ function App() {
           element: (
             <PrivateRoute>
               {/* 100vh - 50px (size of navbar) - 1px (border bottom) */}
-              <div className="flex flex-col min-h-[calc(100vh-51px)]">
+              <div className="flex flex-col min-h-[calc(100vh-60px)]">
                 <div className="flex">
                   <Sidebar />
                   <ChatRoom />
