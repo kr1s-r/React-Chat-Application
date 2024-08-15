@@ -11,3 +11,7 @@ A real-time chat application enabling users to join rooms, send messages, and in
 * Replace firebase.js file with your firebase config settings
 * Install packages: ```npm i```
 * Run ```npm run dev```
+
+## Helpful Resources
+* [Firebase Docs](https://firebase.google.com/docs/web/setup?_gl=1*13xzwsi*_up*MQ..*_ga*MTIwNTk5MzY1MC4xNzIzNzEwMzY3*_ga_CW55HF8NVT*MTcyMzcxMDM2Ny4xLjAuMTcyMzcxMDM2Ny4wLjAuMA..)
+* [React Docs](https://react.dev/reference/react/useRef)
