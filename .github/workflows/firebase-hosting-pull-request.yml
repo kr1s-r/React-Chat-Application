@@ -38,6 +38,12 @@ jobs:
           npm install -g lighthouse
           lighthouse https://react-chat-application-f94e9.web.app/ --output json --output-path ./lighthouse-report.json
 
+      - name: Upload Lighthouse report
+        uses: actions/upload-artifact@v3
+        with:
+          name: lighthouse-report
+          path: ./lighthouse-report.json
+
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
