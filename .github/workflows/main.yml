@@ -33,8 +33,8 @@ jobs:
           name: dist
           path: dist
       - name: Deploy to Firebase
-        uses: w9jds/firebase-action@main
+        uses: FirebaseExtended/action-hosting-deploy@v0
         with:
-          args: deploy --only hosting
-        env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+          firebaseServiceAccount: "${{ FIREBASE_SERVICE_ACCOUNT_REACT_CHAT_APPLICATION_F94E9 }}"
+          projectId: react-chat-application-f94e9
+          channelId: live
