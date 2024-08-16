@@ -28,7 +28,8 @@ build/
 .firebase/
 
 # Firebase key
-main.yml
+firebase-hosting-merge.yml
+firebase-hosting-pull-request.yml
 
 # Editor directories and files
 .vscode/*
