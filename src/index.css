@@ -16,7 +16,8 @@ body {
 }
 
 body {
-  background-color: hsl(253, 29%, 16%);
+  /* background-color: hsl(253, 29%, 16%); */
+  background-color: blue;
   color: white;
 }
 
