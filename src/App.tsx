@@ -18,7 +18,9 @@ NOTES
 - other ways to reduce billing on firebase??
 
 # GITHUB
+- create testing with jest or something similar
 - set up automatic deployment to sites live channel when PR is merged (maybe)
+
 */
 
 function App() {
