@@ -44,6 +44,7 @@ function App() {
               {/* 100vh - 50px (size of navbar) - 1px (border bottom) - 44px (size of button) */}
               <div className="grid place-items-center min-h-[calc(100vh-95px)]">
                 <Login />
+                <p>Do not violate the community guidelines</p>
               </div>
             </PrivateRoute>
           ),
