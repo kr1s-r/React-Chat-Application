@@ -19,6 +19,7 @@ function Login() {
     >
       <img src="iconGoogle.svg" alt="google img" />
       <span className="text-xl">Login with Google</span>
+      <p>Do not violate the community guidelines</p>
     </button>
   );
 }
