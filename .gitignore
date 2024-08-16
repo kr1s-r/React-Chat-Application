@@ -30,6 +30,8 @@ dist/
 # Firebase configuration
 .firebase/
 
+# Firebase key
+react-chat-application-f94e9-96df1f2b9369.json
 
 # Editor directories and files
 .vscode/*
