@@ -47,4 +47,4 @@ jobs:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_REACT_CHAT_APPLICATION_F94E9 }}
           projectId: react-chat-application-f94e9
-          channelId: staging
+          channelId: live
