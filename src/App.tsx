@@ -18,9 +18,9 @@ NOTES
 - other ways to reduce billing on firebase??
 
 # GITHUB
+- set up automatic deployment to sites live channel when PR is merged (doing now)
 - create testing with jest or something similar
-- set up automatic deployment to sites live channel when PR is merged (maybe)
-
+- set up lighthouse to see runtime in yaml
 */
 
 function App() {

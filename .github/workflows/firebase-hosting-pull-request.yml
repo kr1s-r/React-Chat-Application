@@ -30,17 +30,6 @@ jobs:
       - name: Build application
         run: npm run build
 
-      - name: Run Lighthouse performance tests
-        run: |
-          npm install -g lighthouse
-          lighthouse https://react-chat-application-f94e9.web.app/ --output json --output-path ./lighthouse-report.json --chrome-flags="--headless --no-sandbox"
-
-      - name: Upload Lighthouse report
-        uses: actions/upload-artifact@v4
-        with:
-          name: lighthouse-report
-          path: ./lighthouse-report.json
-
       - name: Deploy to Firebase Hosting
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
@@ -48,3 +37,6 @@ jobs:
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_REACT_CHAT_APPLICATION_F94E9 }}
           projectId: react-chat-application-f94e9
           channelId: live
+
+      - name: Check Firebase Secret
+        run: echo "${{ secrets.FIREBASE_SERVICE_ACCOUNT_REACT_CHAT_APPLICATION_F94E9 }}"
