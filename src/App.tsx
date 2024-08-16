@@ -3,8 +3,8 @@ import ErrorPage from "./components/ErrorPage";
 import PrivateRoute from "./components/PrivateRoute";
 import Navbar from "./components/Navbar";
 import Login from "./components/Login";
-import ChatRoom from "./components/chat/ChatRoom";
-import Sidebar from "./components/chat/Sidebar";
+import ChatRoom from "./components/Chat/ChatRoom";
+import Sidebar from "./components/Chat/Sidebar";
 
 /*
 NOTES
