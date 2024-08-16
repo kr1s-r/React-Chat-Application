@@ -28,9 +28,7 @@ build/
 .firebase/
 
 # Firebase key
-react-chat-application-f94e9-96df1f2b9369.json
-firebase-hosting-merge.yml
-firebase-hosting-pull-request.yml
+main.yml
 
 # Editor directories and files
 .vscode/*
