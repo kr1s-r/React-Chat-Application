@@ -11,11 +11,7 @@ NOTES
 - use memoization in firebase (check PedroTech comments) (possibly connected to scrollbar)
 - other ways to reduce billing on firebase??
 - scrollbar is not smooth, kinda glitches (ChatRoom.tsx)
-
-- Fix README.md on github
-- Recreate firebase hosting since github is not connected with app
 - set up automatic deployment to sites live channel when PR is merged (maybe)
-
 - create notifications if a new message appears
 */
 
