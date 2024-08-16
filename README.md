@@ -17,7 +17,7 @@ A real-time chat application enabling users to join rooms, send messages, and in
 * [Firebase Docs](https://firebase.google.com/docs/web/setup?_gl=1*13xzwsi*_up*MQ..*_ga*MTIwNTk5MzY1MC4xNzIzNzEwMzY3*_ga_CW55HF8NVT*MTcyMzcxMDM2Ny4xLjAuMTcyMzcxMDM2Ny4wLjAuMA..)
 * [React Docs](https://react.dev/reference/react/useRef)
 
-## Super Helpful Resources for Github Actions and Firesbase
+## Super Helpful Resources for Github Actions and Firebase
 * [GitHub Action for Firebase Docs](https://github.com/marketplace/actions/github-action-for-firebase)
 * [Firebase Extended Repo - Extremly Useful](https://github.com/FirebaseExtended/action-hosting-deploy)
 * [Firebase Hosting and Github Actions](https://www.youtube.com/watch?v=PUuyqbVtQTQ)
