@@ -10,9 +10,6 @@ lerna-debug.log*
 # vite
 .vite/
 
-# firebase and github
-.github/
-
 # Node modules
 node_modules
 dist
