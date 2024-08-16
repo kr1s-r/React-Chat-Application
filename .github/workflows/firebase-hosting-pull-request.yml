@@ -33,7 +33,7 @@ jobs:
       - name: Run Lighthouse performance tests
         run: |
           npm install -g lighthouse
-          lighthouse https://react-chat-application-f94e9.web.app/ --output json --output-path ./lighthouse-report.json
+          lighthouse https://react-chat-application-f94e9.web.app/ --output json --output-path ./lighthouse-report.json --chrome-flags="--headless --no-sandbox"
 
       - name: Upload Lighthouse report
         uses: actions/upload-artifact@v3
