@@ -8,11 +8,17 @@ import Sidebar from "./components/chat/Sidebar";
 
 /*
 NOTES
-- use memoization in firebase (check PedroTech comments) (possibly connected to scrollbar)
-- other ways to reduce billing on firebase??
+
+# UI/UX
 - scrollbar is not smooth, kinda glitches (ChatRoom.tsx)
-- set up automatic deployment to sites live channel when PR is merged (maybe)
 - create notifications if a new message appears
+
+## PERFORMANCE
+- use memoization in firebase (possibly connected to scrollbar)
+- other ways to reduce billing on firebase??
+
+# GITHUB
+- set up automatic deployment to sites live channel when PR is merged (maybe)
 */
 
 function App() {
