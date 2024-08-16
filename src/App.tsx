@@ -18,7 +18,6 @@ NOTES
 - other ways to reduce billing on firebase??
 
 # GITHUB
-- set up automatic deployment to sites live channel when PR is merged (doing now)
 - create testing with jest or something similar
 - set up lighthouse to see runtime in yaml
 */
@@ -44,7 +43,6 @@ function App() {
               {/* 100vh - 50px (size of navbar) - 1px (border bottom) - 44px (size of button) */}
               <div className="grid place-items-center min-h-[calc(100vh-95px)]">
                 <Login />
-                <p>Do not violate the community guidelines</p>
               </div>
             </PrivateRoute>
           ),
