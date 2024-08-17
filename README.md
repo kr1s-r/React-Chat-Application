@@ -1,4 +1,4 @@
-# React-Chat-Application
+# React Chat Application
 
 ## Description
 A real-time chat application enabling users to join rooms, send messages, and interact with others seamlessly. Designed with React and Firebase for dynamic and scalable messaging
